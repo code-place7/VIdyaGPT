@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 VidyaGPT
 
-## Getting Started
+An AI-powered educational assistant built using **Next.js** and **OpenAI**, designed to make learning easy and fun.
 
-First, run the development server:
+## ✨ Features
 
-```bash
+- 💬 **Ask Questions** – Get instant answers powered by OpenAI
+- 📚 **Summarize Concepts** – Understand complex topics in simpler terms
+- 🌓 **Dark Mode** – Smooth and eye-friendly UI
+- ⚡ **Blazing Fast** – Built with Next.js and optimized for performance
+- 🌐 **SEO-friendly** – Perfect for shareable, searchable pages
+
+---
+
+## 🛠 Tech Stack
+
+| Frontend     | Backend    | API           | Hosting |
+| ------------ | ---------- | ------------- | ------- |
+| Next.js 14   | API Routes | OpenAI GPT    | Vercel  |
+| Tailwind CSS | Node.js    | RESTful Setup |         |
+
+---
+
+## 🚀 Getting Started
+
+## Clone the project:
+
+git clone https://github.com/code-place7/VidyaGPT.git
+cd VidyaGPT
+
+## 📦 Install dependencies
+
+npm install
+
+# or
+
+yarn install
+
+## 🔐 Setup Environment Variables
+
+Create a .env.local file in the root directory and add your OpenAI key
+
+OPENAI_API_KEY=your_openai_api_key_here
+
+## ▶️ Run Development Server
+
 npm run dev
+
 # or
+
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Folder Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+bash
+Copy code
+VidyaGPT/
+├── public/ # Static assets (images, icons)
+├── src/
+│ ├── app/ # Next.js 14 app directory
+│ ├── components/ # Reusable UI components
+│ └── styles/ # Global styles (TailwindCSS)
+├── .env.example # Sample environment config
+├── README.md # You are here
+├── package.json # Project config and scripts
+└── next.config.js # Next.js configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 License
 
-## Learn More
+This project is licensed under the **MIT** License.
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Made with ❤️ by **MONU.DEV**
+Connect on **LinkedIn**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚠️ This is a student/personal project. Not affiliated with OpenAI.
