@@ -26,8 +26,7 @@
 
 <p align="center">
   <img src="https://img.icons8.com/color/48/nextjs.png" title="Next.js" />
-  <img src="https://img.icons8.com/color/48/openai.png" title="OpenAI" />
-  <img src="https://img.icons8.com/color/48/typescript.png" title="TypeScript" />
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openai.svg" width="48" height="48" title="OpenAI" />  <img src="https://img.icons8.com/color/48/typescript.png" title="TypeScript" />
   <img src="https://img.icons8.com/color/48/tailwindcss.png" title="Tailwind CSS" />
 </p>
 
