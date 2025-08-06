@@ -4,7 +4,6 @@
 
 
 
-<h1 align="center">🚀 VidyaGPT</h1>
 <p align="center">
   <b>AI-powered educational assistant</b><br>
   <img src="https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=fff" />
